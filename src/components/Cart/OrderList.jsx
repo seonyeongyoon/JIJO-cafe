@@ -8,8 +8,7 @@ function OrderList() {
   const isAuth = useAuthStore((state) => state.isAuth);
   const {add: handleAddToCart} = useCartStore();
   const { cart } = useCartStore();
-  console.log(cart);
-  //console.log(product);
+
   
 
   return (
